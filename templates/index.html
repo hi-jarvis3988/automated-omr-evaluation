@@ -560,9 +560,9 @@
                 }
             } catch (error) {
                 showStatus('keyStatus', `Error: ${error.message}`, 'error');
+            } finally {
+                showLoading('keyLoadingIcon', false);
             }
-            
-            showLoading('keyLoadingIcon', false);
         }
         
         // Save student details
