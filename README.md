@@ -1,3 +1,12 @@
+---
+title: OMR Processing Web Application
+emoji: 📝
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_file: app.py
+pinned: false
+---
 # OMR Processing Web Application
 
 This web application provides a complete solution for processing, evaluating, and reporting on Optical Mark Recognition (OMR) answer sheets.
