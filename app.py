@@ -20,8 +20,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Configuration
-UPLOAD_FOLDER = 'uploads'
-RESULTS_FOLDER = 'results'
+UPLOAD_FOLDER = os.path.join(tempfile.gettempdir(), 'uploads')
+RESULTS_FOLDER = os.path.join(tempfile.gettempdir(), 'results')
 ALLOWED_EXTENSIONS = {'xlsx', 'xls', 'jpg', 'jpeg', 'png'}
 
 # Create directories if they don't exist
